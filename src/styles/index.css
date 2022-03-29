@@ -65,3 +65,6 @@
 .swal2-actions {
 	background-color: #ffffff;
 }
+.swal2-styled.swal2-confirm {
+	background-color: black;
+}

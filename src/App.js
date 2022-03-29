@@ -29,7 +29,9 @@ export default class App extends React.Component {
 		if (this.state.contador >= 7) {
 			Swal.fire({
 				position: 'top',
+				confirmButtonColor: '#000',
 				title: 'Historia finalizada.',
+				color: '#000',
 			});
 			this.setState({
 				fin: true,
